@@ -1,0 +1,19 @@
+{
+  "name": "jigsaw-mean",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisfervil/Jigsaw-mean.git"
+  },
+  "author": "crisfervil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crisfervil/Jigsaw-mean/issues"
+  },
+  "homepage": "https://github.com/crisfervil/Jigsaw-mean#readme"
+}
