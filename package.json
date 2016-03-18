@@ -22,5 +22,8 @@
         "jigsaw-app":"link"
       }
     }
+  },
+  "dependencies": {
+    "jigsaw": "*"
   }
 }
