@@ -16,14 +16,18 @@
     "url": "https://github.com/crisfervil/Jigsaw-mean/issues"
   },
   "homepage": "https://github.com/crisfervil/Jigsaw-mean#readme",
-  "config":{
-    "jigsaw":{
+  "config": {
+    "jigsaw": {
       "dependencies": {
-        "jigsaw-app":"link"
+        "jigsaw-app": "link"
       }
     }
   },
   "dependencies": {
-    "jigsaw": "*"
+    "jigsaw": "*",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "typings": "^0.7.9"
   }
 }
