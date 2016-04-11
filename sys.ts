@@ -1,3 +1,5 @@
+/// <reference path="typings/main.d.ts" />
+
 export class sys{
   public static installDependencies(appDef){
     console.log("installing dependencies...");

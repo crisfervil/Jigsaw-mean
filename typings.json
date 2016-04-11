@@ -1,7 +1,4 @@
 {
-  "name": "jigsaw-mean",
-  "dependencies": {},
-  "devDependencies": {},
   "ambientDependencies": {
     "ncp": "registry:dt/ncp#0.5.1+20160316155526"
   }
