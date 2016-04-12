@@ -1,3 +1,5 @@
+// selector: /
+// outputPath: bin/www
 #!/usr/bin/env node
 
 /**
