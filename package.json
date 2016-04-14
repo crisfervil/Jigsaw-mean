@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "typings install && tsc -p ."
+    "build": "typings install && tsc -p .",
+    "postinstall": "node ../jigsaw/bin/run save jigsaw-mean ../.."
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,6 @@
     "url": "https://github.com/crisfervil/Jigsaw-mean/issues"
   },
   "homepage": "https://github.com/crisfervil/Jigsaw-mean#readme",
-  "config": {
-    "jigsaw": {
-      "dependencies": {
-        "jigsaw-app": "link"
-      }
-    }
-  },
   "dependencies": {
     "body-parser": "~1.13.2",
     "cookie-parser": "~1.3.5",
