@@ -12,7 +12,7 @@ export class BuildTasks extends jigs.TaskSet {
         var dest = process.cwd();
         ncp.ncp(source, dest, error => {
             if (error) {
-                console.log("error");
+                console.log(error);
             }
             else {
                 console.log("done");
@@ -22,7 +22,7 @@ export class BuildTasks extends jigs.TaskSet {
         // TODO: create package.json if doesn't exist
 
         // TODO: update package.json
-        // "start": "node ./bin/www"
+        // add "start": "node ./bin/www"
 
     }
 }
