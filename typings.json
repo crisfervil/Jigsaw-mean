@@ -1,5 +1,6 @@
 {
   "ambientDependencies": {
-    "ncp": "registry:dt/ncp#0.5.1+20160316155526"
+    "ncp": "registry:dt/ncp#0.5.1+20160316155526",
+    "node": "registry:dt/node#4.0.0+20160412142033"
   }
 }
